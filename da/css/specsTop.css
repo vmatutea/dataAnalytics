@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+
+@CHARSET "ISO-8859-1";
+
+.graphArea{
+	position :absolute;
+	width:100%;
+	margin-left:0px;
+}
+
+.graphL{
+	position :absolute;
+	width	:48%;
+	margin	:0px;
+	
+}
+.graphR{
+	width	:49%;
+	margin	:0px;
+	float :right;
+}
+
+.infoArea{
+	width:100%;
+	margin-rigth:0px;
+}
+
+.graphInno{
+	width:100%;
+	height:130px;
+}
+ .sum{
+ 	width: 50%;
+ 	height: 200px;
+ 	float:right;
+ }
+
+.re-buffer{
+	border: 1px;
+	width: 50%;
+	margin: 5px;
+}
+
+.re-buffer > * > tr > td{
+	border:medium solid rgb(194,195,196);
+	padding:3px;
+}
+
+h2{
+	color:#5a5a5a;
+	font-weight:bold;
+	font-family:ERICSSON CAPITAL TT;
+}
+
+.labels{
+	color:#5a5a5a;
+	font-size:18px;
+	font-weight:bold;
+	height:180px;
+	font-family:ERICSSON CAPITAL TT;
+} 

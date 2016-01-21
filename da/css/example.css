@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.e-darkTheme {
+  background: #000100;
+}
+
+.e-groupedWindows {
+  padding-top: 50px;
+}
+
+.e-groupedWindows .e-window {
+  margin: 0 5px;
+}
+
+.sideTabs {
+  width: 20%;
+  background: #393939;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.chart {
+  margin: 5px;
+  width: 80%;
+  float: left;
+}
+
+.export_{
+	float:right
+}
+
+.e-imei-btn{
+	padding:2px;
+	float: right;
+}
+
+.arrowIcon{
+  top: 1px;
+  right: 1px;
+  width: 32px;
+  height: 22px;
+  background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAYAAADebrddAAAAXElEQVR42o2MUQ3AIAxEKwEJk0BSQ0ipg0mYBKRMyiTcesnthzBCk0s57l0NwLbM3ZE6bTHMyfERKrQf8FAe38c1Kwgs3OOFnnpSVb7Kh42jC7eAxi1fmK8KmIEv8xJIQJ4L8rsAAAAASUVORK5CYII=') center center no-repeat;
+  z-index: 999;
+}
+.rotate{
+  -webkit-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -o-transform:rotate(90deg);
+  /* filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=1.5); */
+  -ms-transform:rotate(90deg);
+}
+
+.e-darkTheme .arrowIcon{
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAYAAADebrddAAAAXklEQVR42o2MUQ2AMAxEJ2ESkDBJk1IHSEACRpogBQmlR45klwXCx0t367uWiPhNcfdI1i8J++R+GAv9RVy4t+djk4KKFRN5XOzJmTTmxmzIIvPCQaFjMleV50KISC6wi+TWkreH+QAAAABJRU5ErkJggg==') center center no-repeat;
+}
+
+.e-content > .search {
+  padding: 5px;
+}
+
+  .e-content > .search > .e-input {
+    width: 100%;
+  }
+
+.e-content > .tabs {
+  float: right;
+  clear: both;
+  width: 80%;
+  height: 33px;
+  border-top: 1px solid #6F6F6F;
+}
+
+  .chart > img {
+    max-width: 100%;
+  }
+
+.graph {
+	width: 1100px !important;
+	height: 400px !important;
+	padding-top: 12px !important;
+	margin: 5px;
+	margin-bottom: 20px;
+}
+
+.dygraph-title{
+	float:left;
+	padding-left:20px;
+}
+.e-graphtab {
+	/*height:auto;*/
+	/*overflow:scroll;*/
+}
+.e-window .e-foot.tabs {
+  height: 34px;
+  padding-top: 0;
+}
+
+.hideable {
+  padding: 5px 29px 10px;
+ /*  overflow: hidden; */
+}
+
+  .hideable > div {
+    width: 100%;
+    margin-bottom: 5px;
+    padding-top: 2px;
+  }
+   
+   .hideable > div > p{
+   	line-height: 25px;
+    overflow: hidden;
+    padding: 5px 0;
+  }
+  
+  .hideable > div > strong{
+    float: left;
+    margin: 0;
+    line-height: 25px;
+  }
+  
+  .hideable > div > p > strong{
+   	 float: left;
+     margin: 0;
+  }
+
+   .hideable > div > p > *{
+    float: right;
+    margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+   .hideable > div > table{
+    width:100%;
+    margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+.hideable > div > form > p{
+   	line-height: 25px;
+    margin-bottom: 5px;
+  }
+  
+
+    .hideable > div > form > p > strong{
+     line-height: 25px;
+      margin: 0;
+      margin-bottom: 5px;
+  }
+  
+  .hideable > span {
+    display: block;
+    line-height: 24px;
+    margin: 0 -24px 5px;
+  }
+  
+    .hideable > span > i {
+      float: left;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+    }
+    
+  .hideable > p {
+    line-height: 25px;
+    overflow: hidden;
+    padding: 5px 0;
+  }
+  
+    .hideable > p > * {
+      float: right;
+      margin-left: 5px;
+    }
+    
+    .hideable > p > strong {
+      float: left;
+      margin: 0;
+    }
+    
+    .hideable > p > .e-input {
+      width: 100px;
+    }
+    
+.e-scrollbar.e-vertical {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100% !important;
+}
+
+.e-window > div > .e-content.has-scroll {
+  padding-right: 14px;
+}
+
+.content > .main {
+  float: right;
+  position: absolute;
+  right: 0;
+  width: 75%;
+}
+
+.content > aside {
+  width: 25%;
+  float: left;
+  position: fixed;
+}
+
+  .e-window .e-head > button {
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 3px;
+  }
+  
+  .e-window .e-content > .viewport {
+    overflow: hidden;
+  }
+  
+.day {
+  text-align: center;
+  padding: 0.25em;
+  display: block;
+  float: left; 
+  position: relative;
+  margin: 0 auto;
+  width:32px;
+  border: 0px;
+  Border-radius: 1px;
+  margin: 1px;	
+  font-weight: bold;
+  }
+.green{
+	background-color:rgb(165,199,83); 
+	color: #58585a;
+}
+.day:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.e-darkTheme .green{
+  color: #f0f1f1;
+  background-color:rgb(137,186,23);
+}
+.grey{
+  background-color:rgb(194,195,196);
+  color: #58585a;
+  }
+
+.e-darkTheme .grey{
+  color: #f0f1f1;	
+  background-color:rgb(135,136,138);
+}
+
+#dayset { width: 200px; height: 200px; position: relative; margin: 5px;}
+
+.timefield1, .timefield0 { 
+	width: 19px; 
+	height: 19px; 
+	position: absolute; 
+	Border-radius: 3px;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+	}
+.unactiveField{
+	background-color:rgb(194,195,196);
+ 	color: #58585a;
+ 	font-weight: bold;
+}
+.unactiveField:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.e-darkTheme .unactiveField{
+  color: #f0f1f1;	
+  background-color:rgb(135,136,138);
+}
+.activeField{
+	background-color:rgb(165,199,83); 
+ 	color: #58585a;	
+ 	font-weight: bold;
+}
+.activeField:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+.e-darkTheme .activeField{
+  color: #f0f1f1;
+  background-color:rgb(137,186,23);
+}
+
+#switch{
+	float: right;
+}
+.top{
+border-top-left-radius:2em;
+border-top-right-radius:2em;	
+vertical-align: top;
+}
+.buttom{
+border-bottom-right-radius:2em;
+border-bottom-left-radius:2em; 	
+vertical-align: bottom; 
+}
+.click {
+  background-color:#d1d2d4; 
+  color: #58585a;
+  text-align: center;
+  padding: 0.25em;
+  display: block;
+  float: left; 
+  position: relative;
+  margin: 0 auto;
+  width:32px;
+  border: 0px;
+  margin: 1px;	
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+.on:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
+.off {
+  opacity: 0.6;
+  }

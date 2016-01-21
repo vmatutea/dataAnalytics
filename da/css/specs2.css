@@ -1,0 +1,32 @@
+@CHARSET "ISO-8859-1";
+
+.content{
+	
+}
+
+.graphArea{
+		width:100%;
+		margin:0px;
+		border:1px;
+}
+
+.graphsBuf{
+		width	:50%;
+		margin	:0px;
+}
+
+.graphsLBR{
+		width	:45%;
+		margin	:0px;
+		float : right;
+}
+
+.graphsCO{
+
+}
+
+.graphInno{
+	width: 100%;
+	height: 165px;
+	/*background-image:url("../Background.png") !important;*/
+}

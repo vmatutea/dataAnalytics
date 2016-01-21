@@ -1,0 +1,60 @@
+body {
+  font: normal 24px/28px Arial;
+  color: rgba(0,0,0,0.7);
+}
+
+header{
+	font: normal 24px/28px Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+h3{
+	font-size:30px;
+	padding: 0px 3px;
+}
+
+h4{
+	padding: 0px 3px;
+}
+
+h5{ 
+	font-size: 20px;
+	font-family : Arial;
+	padding : 2px 3px;
+	text-align: right;
+}
+
+a {
+  color: #0066B3;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+.e-darkTheme {
+  color: #B1B3B4;
+}
+
+.e-darkTheme .olControlMousePosition {
+  color: #575757;
+}
+.e-darkTheme .olControlScaleLineTop {
+  color: #575757;
+}
+.e-darkTheme .olControlScaleLineBottom {
+  color: #575757;
+}
+.e-darkTheme .ui-ruler-tick-label {
+  color: #575757;
+}
+.e-darkTheme .ui-rangeSlider .ui-ruler-tick-label {
+  color: #F2F2F2;
+}
+

@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+
+.multicontent{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.graphContent{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.names{
+	float:left;
+}
+
+.graphsBuf{
+		width	:50%;
+		height:130px;
+		margin	:0px;
+}
+
+.graphsLBR{
+		width	:45%;
+		margin	:0px;
+		float : right;
+}
+.graphInno{
+	width: 50%;
+	height: 165px;
+	/*background-image:url("../Background.png") !important;*/
+}

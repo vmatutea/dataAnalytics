@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+
+.left{
+	width: 51%;
+	float: left;
+}
+
+.right{
+	width:49%;
+	float: right;
+}
+
+.graphInno{
+	width: 100%;
+	height: 165px;
+	/*background-image:url("../Background.png") !important;*/
+}
+
+.gRight{
+	width: 100%;
+	/*background-image:url("../Background_right.png") !important;*/
+	
+}
+
+.re-buffer{
+	border: 1px;
+}
+
+.re-buffer > * > tr > td{
+	border:medium solid rgb(194,195,196);
+	padding:3px;
+}
+
+.delay{
+	padding:3px;
+}
+
+.stopp{
+	width:20px;
+	height:30px;
+}
+
+h2{
+	color:#5a5a5a;
+	font-weight:bold;
+	font-family:ERICSSON CAPITAL TT;
+}
+
+.labels{
+	color:#5a5a5a;
+	font-size:18px;
+	font-weight:bold;
+	height:180px;
+	font-family:ERICSSON CAPITAL TT;
+} 
